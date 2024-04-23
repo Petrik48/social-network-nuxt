@@ -2,6 +2,6 @@
 
 <template>
   <div>
-    <p>Feed</p>
+    <slot />
   </div>
 </template>

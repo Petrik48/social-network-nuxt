@@ -4,19 +4,18 @@ export default {
   theme: {
     extend: {
       transitionDuration: {
-        DEFAULT: '333ms',
+        DEFAULT: "333ms",
       },
       transitionTimingFunction: {
-        DEFAULT: 'ease-in-out',
+        DEFAULT: "ease-in-out",
       },
       colors: {
         background: {
-          DEFAULT: 'var(--background)',
-          header: 'var(--background-header)'
-        }
-      }
+          DEFAULT: "var(--background)",
+          header: "var(--background-header)",
+        },
+      },
     },
   },
   plugins: [],
-}
-
+};
