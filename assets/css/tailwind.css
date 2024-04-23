@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #141414;
+    --background-header: #222222;;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+}
