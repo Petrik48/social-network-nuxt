@@ -20,7 +20,7 @@
     --border: 220 13% 91%;
     --input: 220 13% 91%;
  
-    --primary: #0077ff;
+    --primary: #2688eb;
     --primary-foreground: #346297;
     --primary-link: #2a5885;
 
@@ -70,10 +70,34 @@
 }
  
 @layer base {
+  html {
+    font-family: "VKSans", system-ui, sans-serif;
+  }
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+  }
+  @font-face {
+    font-family: 'VKSans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/assets/fonts/VK-Sans-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'VKSans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/assets/fonts/VK-Sans-Medium.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'VKSans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/assets/fonts/VK-Sans-Bold.woff2) format('woff2');
   }
 }

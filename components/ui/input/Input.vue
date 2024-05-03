@@ -24,7 +24,7 @@ const modelValue = useVModel(props, "modelValue", emits, {
     v-model="modelValue"
     :class="
       cn(
-        'flex px-3 py-2 h-9 w-full text-xs rounded-md border border-[#0000001f] placeholder:text-[#757575] placeholder:leading-5 leading-5 bg-background-secondary',
+        'flex px-3 py-2 h-9 w-full text-xs rounded-md border border-[#0000001f] placeholder:text-[#757575] placeholder:leading-5 leading-5 bg-background-secondary focus:outline-0 hover:border-[#447bba] focus:border-[#447bba]',
         props.class,
       )
     "

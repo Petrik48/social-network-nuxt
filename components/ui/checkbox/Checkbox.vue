@@ -37,7 +37,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits);
       class="flex h-full w-full items-center justify-center text-current"
     >
       <slot>
-        <CheckIcon class="h-4 w-4" />
+        <CheckIcon class="h-4 w-4 text-white" />
       </slot>
     </CheckboxIndicator>
   </CheckboxRoot>

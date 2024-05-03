@@ -18,6 +18,8 @@ module.exports = {
     },
     fontSize: {
       xs: "0.8125rem",
+      s: "0.9375rem",
+      m: "1.25rem",
     },
     extend: {
       transitionDuration: {
